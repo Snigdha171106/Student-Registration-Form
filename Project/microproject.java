@@ -9,7 +9,7 @@ public class microproject extends JFrame
     JPasswordField passwordField, confirmPasswordField; 
     JRadioButton maleButton, femaleButton; 
     ButtonGroup genderGroup; 
-    static int userCount = 0; //limitation for registration
+    static int userCount = 0;
     static final int MAX_USERS = 2;  
     static final HashSet<String> registeredEmails = new HashSet<>();
 
@@ -210,4 +210,5 @@ public static void main(String[] args)
 {
     microproject m = new microproject();
 }
+
 }
